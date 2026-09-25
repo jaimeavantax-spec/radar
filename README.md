@@ -32,3 +32,14 @@ Proyecto de uso personal. Se ejecuta como un proceso programado (batch diario) q
 ## Estado
 
 En desarrollo activo.
+
+## Uso de la API de Reddit (Reddit API usage)
+
+Radar accede a Reddit en **solo lectura** (read-only) mediante la API oficial de datos de Reddit (PRAW, script app).
+
+- **Sin escritura (no writes):** nunca publica, comenta, vota ni envía mensajes.
+- **Bajo volumen (low volume):** una corrida programada al día; solo posts públicos top/hot del día.
+- **Sin almacenamiento ni reventa (no storage/resale):** los datos de Reddit se usan de forma transitoria para generar un resumen privado de análisis personal. Nunca se almacenan a largo plazo, se redistribuyen, se venden ni se usan para entrenar modelos de IA.
+- **Un solo usuario, no comercial (single user, non-commercial):** herramienta de investigación personal, sin servicio público.
+
+Subreddits consultados: r/technology, r/gadgets, r/SideProject, r/smallbusiness, r/Entrepreneur, r/AppIdeas, r/SomebodyMakeThis.
